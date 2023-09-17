@@ -126,8 +126,13 @@
 #rectangle24{
     position: absolute;
     z-index: -1;
-    object-fit: fill;
-    background-size: cover;
+
+    height: 619px; /* Fixed height */
+    width:1047px;
+   
+
+    
+    
 
     left: 275px;
     top: -240px;
