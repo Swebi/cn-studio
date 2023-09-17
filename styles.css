@@ -92,6 +92,7 @@
     background-color: #FFFFFF;
     border-color: #F2F2F2;
     border-width: 1px;
+    box-shadow: 0px 10px 50px 0px #0000000D;
 }
 
 .cardrect{
@@ -147,6 +148,68 @@
     top: 340px;
 
 }
+
+
+#productbox{
+    width:100%;
+    height:auto;
+    padding-bottom: 7%;
+    
+    
+    margin-top: 10%;
+}
+
+
+
+#ellipse86{
+    position: absolute;
+    z-index: -1;
+    top:400px;
+    left: 590px;
+
+}
+
+#rectangle26{
+    position: absolute;
+    z-index: -1;
+    top:110px;
+    left: 755px;
+
+}
+
+#play{
+    position: absolute;
+    z-index: 1;
+    top:205px;
+    left: 320px;
+
+}
+
+#ellipse94{
+    position: absolute;
+    z-index: -1;
+    top:265px;
+    left: 95px;
+
+}
+
+#ellipse93{
+    position: absolute;
+    z-index: -1;
+    top:100px;
+    left: 1050px;
+
+}
+
+#dot{
+    position: absolute;
+    z-index: -1;
+    top:-25px;
+    left: 265px;
+
+}
+
+
 
 
 
