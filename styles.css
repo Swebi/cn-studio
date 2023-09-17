@@ -1,6 +1,9 @@
 .home{
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+
+
 #navtop{
     margin-top:2%;
     padding-right: 9%;
@@ -208,6 +211,103 @@
     left: 265px;
 
 }
+
+#newsletter{
+    width: 1197px;
+    height: 292px;
+    border-radius: 75px;
+    background-color: #F4F9FF;
+    margin: auto;
+    padding:6%
+
+
+
+}
+
+
+#newsinput{
+    color: #959595;
+    
+
+    background-color: white;
+    padding-left: 30px;
+    width: 479px;
+    height: 80px;
+    font-size: 16px;
+
+    border-radius: 60px;
+    border:0;
+    outline: none;
+
+    box-shadow: 10px 20px 50px 0px #00000026;
+    z-index: 5;
+}
+
+#inputtext{
+    border:0;
+    outline: none;
+    z-index: 5;
+}
+
+
+
+
+
+#newsbutton{
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #2639ED;
+    width: 188px;
+    height:60px;
+    border-radius: 60px;
+    margin:auto;
+    margin-right: 10px;
+    z-index: 5;
+
+
+}
+
+#rectangle32{
+    position: absolute;
+    z-index: -1;
+    top:60px;
+    left: -130px;
+
+}
+
+#group73{
+    position: absolute;
+    z-index: -1;
+    top:-150px;
+    left: 985px;
+
+}
+
+#rectangle31{
+    position: absolute;
+    z-index: 2;
+    top:-90px;
+    left: 610px;
+
+
+}
+
+#footer{
+    width: 1200px;
+    height: 348px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+
 
 
 
