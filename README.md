@@ -8,7 +8,8 @@ A website made for Coding Ninjas SRM. Made using HTML,CSS,Bootstrap
 
 
 Contact - made using bootstrap offcanvas component
-![image](https://github.com/Swebi/cn-studio/assets/82446436/df9e9f1e-5ef9-4c21-b02b-3b5fccdcfd77)
+![image](https://github.com/Swebi/cn-studio/assets/82446436/0bebb5d0-7445-41f5-aaa1-f7ae93ea3d41)
+
 
 
 
