@@ -326,11 +326,13 @@
 }
 
 #email,#name,#phone,#grade{
-    width:320px;
+    width:300px;
     height:55px;
     border-radius: 15px;
     
 }
+
+
 
 
 
