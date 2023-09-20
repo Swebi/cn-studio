@@ -32,6 +32,23 @@
     margin-top: 40px;
 }
 
+@keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+.rotate {
+    position: absolute;
+    left:1420px;
+    top:-42px;
+    animation: rotateImage 2s infinite linear;
+}
+
 #btncontact{
     color:white;
     background-color:#2639ED;
@@ -59,7 +76,7 @@
     z-index: -1;
 
     left: -55px;
-    top: 30px;
+    top: -50px;
 
 }
 
@@ -304,6 +321,16 @@
 
 }
 
+#contact{
+    width:400px;
+}
+
+#email,#name,#phone,#grade{
+    width:320px;
+    height:55px;
+    border-radius: 15px;
+    
+}
 
 
 

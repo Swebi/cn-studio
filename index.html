@@ -39,7 +39,7 @@
           <ul class="navbar-nav " id="navtop">
 
             <li class="nav-item">
-              <a class="nav-link" id ='navtext' href="#homebox">Home</a>
+              <a class="nav-link" id ='navtext'>Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id ='navtext'>What We Do</a>
@@ -54,18 +54,65 @@
               <a class="nav-link" id ='navtext'>Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id ='navtext'>Contact</a>
+              <a class="nav-link" id ='navtext'> Contact</a>
             </li>
+
           </ul>
+
+                    <!-- Offcanvas Sidebar -->
+                    <div class="offcanvas offcanvas-end" id="contact">
+                      <div class="offcanvas-header">
+                        <h1 class="offcanvas-title" style="margin-left:5%;" >Contact Us</h1>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                      </div>
+                      <div class="offcanvas-body"  style="margin:auto">
+
+                        <div class="form-floating mb-3 mt-3">
+                          <input type="text" class="form-control" id="email" placeholder="Email" name="email">
+                          <label id="emailtext" for="email">Email</label>
+                        </div>
+
+                        <div class="form-floating mt-3 mb-3">
+                          <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                          <label for="name">Name</label>
+                        </div>
+
+                        <div class="form-floating mt-3 mb-3">
+                          <input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
+                          <label for="phone">Phone Number</label>
+                        </div>
+
+
+                        <select id="grade" class="form-select" placeholder="Service">
+                          <option>Service</option>
+                          <option>Business Planning </option>
+                          <option>Financial Planning</option>
+                          <option>Development</option>
+                          <option>Market Analysis</option>
+
+                        </select>
+
+
+                        <button class="btn" id="btncontact" style="margin-top: 20px; margin-bottom: 30px;"
+                        type="button">Reach Out!</button>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4527.24798095091!2d80.04447065232135!3d12.82337634757942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f712b82a78d9%3A0xfdb944a3aee53831!2sSRM%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sin!4v1695231035393!5m2!1sen!2sin" width="350" height="450" style="border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      
+                      </div>
+                    </div>
 
         </div>
 
       </nav>
 
+      <div class="parent">
+        <img class="rotate" src="https://png.pngtree.com/png-clipart/20220725/ourmid/pngtree-shuriken-ninja-kunai-star-png-image_6060895.png"
+        height="30px" width="30px" >
+      </div>
+
       <div class="container-fluid" id="homebox">
 
         <div class="row" style="margin-bottom:25%">
-
 
           <div class="col-6" style="padding-left: 8%; padding-top: 8.5%;" >
             <h1  style="font-weight: 700; font-size: 40px; 
@@ -77,18 +124,19 @@
                expertise. We build readymade websites, mobile applications,<br> 
                and elaborate online business services.</p>
 
+            <button type="button" id="btncontact" class="btn" data-bs-toggle="offcanvas" 
+            data-bs-target="#contact">Contact Now</button>
 
-
+            
             <div class="parent">
-              <div id="absolute">
-                <button type="button" id="btncontact" class="btn">Contact Now</button>
-              </div>
               <div id="ornament">
                 <img src="assets/Dot Ornament.png"
                 height=154,width=404 style="border-radius: 0px;">
               </div>
-
             </div>
+
+
+
           </div>
 
 
@@ -128,6 +176,8 @@
               believe in our service.</p>
 
           </div>
+
+          
 
           <div class="col-2" style=" padding-left:2%">
 
@@ -313,6 +363,7 @@
          
             
           </div>
+          
 
 
           <div class="col-6" style="padding-left: 7.5%; padding-top: 8.5%;" >
